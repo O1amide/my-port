@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <meta name="description" content="Unlock your natural radiance with Glow Up Beauty. Premium skincare products specially formulated for Nigerian women. Natural ingredients, proven results.">
 </head>
 <body>
     <!-- Navigation Menu -->
@@ -30,10 +31,31 @@
     <section class="demo-hero" style="background: linear-gradient(135deg, #FF6B6B 0%, #4ECDC4 100%);">
         <div class="container">
             <div class="demo-hero-content">
+                <div class="hero-badge">
+                    <span class="badge-icon">✨</span>
+                    <span>Premium Skincare Brand</span>
+                </div>
                 <h1 class="demo-title">Glow Up Beauty</h1>
                 <p class="demo-subtitle">Premium Skincare for Nigerian Women</p>
-                <p class="demo-description">Unlock your natural radiance with our specially formulated skincare products</p>
-                <button class="cta-button primary demo-cta" onclick="showDemoAlert()">Shop Now</button>
+                <p class="demo-description">Unlock your natural radiance with our specially formulated skincare products designed for the unique needs of African skin.</p>
+                <div class="hero-cta-group">
+                    <button class="cta-button primary demo-cta" onclick="showDemoAlert()">Shop Now</button>
+                    <button class="cta-button secondary" onclick="showDemoAlert()">Skin Analysis</button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">10K+</span>
+                        <span class="stat-label">Happy Customers</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Natural Ingredients</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">30</span>
+                        <span class="stat-label">Day Guarantee</span>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -41,46 +63,496 @@
     <!-- About Section -->
     <section class="demo-section">
         <div class="container">
-            <h2 class="section-title">About Glow Up Beauty</h2>
-            <div class="demo-content">
-                <p>Glow Up Beauty is dedicated to helping Nigerian women achieve their healthiest, most radiant skin. Our products are specifically formulated to address the unique skincare needs of African women, using natural ingredients and proven scientific methods.</p>
-                <p>We believe that every woman deserves to feel confident in her skin. That's why we've created a comprehensive range of skincare products that work together to cleanse, nourish, and protect your skin while enhancing your natural beauty.</p>
+            <div class="section-header">
+                <h2 class="section-title">About Glow Up Beauty</h2>
+                <p class="section-subtitle">Celebrating the beauty of African skin</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Glow Up Beauty is dedicated to helping Nigerian women achieve their healthiest, most radiant skin. Our products are specifically formulated to address the unique skincare needs of African women, using natural ingredients and proven scientific methods.</p>
+                    <p>We believe that every woman deserves to feel confident in her skin. That's why we've created a comprehensive range of skincare products that work together to cleanse, nourish, and protect your skin while enhancing your natural beauty and celebrating your unique glow.</p>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <span class="feature-icon">🌿</span>
+                            <span>100% natural ingredients</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">🔬</span>
+                            <span>Scientifically formulated</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">🌍</span>
+                            <span>Made for African skin</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">✅</span>
+                            <span>Dermatologist tested</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.pexels.com/photos/3373736/pexels-photo-3373736.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Glow Up Beauty Products">
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Services Section -->
+    <!-- Products Section -->
     <section class="demo-section" style="background: #f8f9fa;">
         <div class="container">
-            <h2 class="section-title">What We Offer</h2>
+            <div class="section-header">
+                <h2 class="section-title">Our Product Range</h2>
+                <p class="section-subtitle">Complete skincare solutions for every need</p>
+            </div>
             <div class="services-grid">
-                <div class="service-card">
+                <div class="service-card featured">
+                    <div class="service-icon">🧴</div>
                     <h3>Cleansing Products</h3>
-                    <p>Gentle yet effective cleansers for all skin types</p>
+                    <p>Gentle yet effective cleansers that remove impurities while maintaining your skin's natural moisture barrier.</p>
+                    <div class="service-price">₦3,500 - ₦8,000</div>
+                    <ul class="service-features">
+                        <li>Gentle Foam Cleanser</li>
+                        <li>Exfoliating Scrub</li>
+                        <li>Makeup Remover</li>
+                        <li>Micellar Water</li>
+                    </ul>
+                    <button class="service-btn" onclick="showDemoAlert()">Shop Cleansers</button>
                 </div>
+                
                 <div class="service-card">
+                    <div class="service-icon">💧</div>
                     <h3>Moisturizers</h3>
-                    <p>Hydrating formulas for smooth, supple skin</p>
+                    <p>Hydrating formulas that lock in moisture for smooth, supple, and healthy-looking skin all day long.</p>
+                    <div class="service-price">₦4,000 - ₦12,000</div>
+                    <ul class="service-features">
+                        <li>Daily Moisturizer</li>
+                        <li>Night Cream</li>
+                        <li>Body Lotion</li>
+                        <li>Hydrating Serum</li>
+                    </ul>
+                    <button class="service-btn" onclick="showDemoAlert()">Shop Moisturizers</button>
                 </div>
+                
                 <div class="service-card">
+                    <div class="service-icon">✨</div>
                     <h3>Brightening Serums</h3>
-                    <p>Advanced formulas for even skin tone</p>
+                    <p>Advanced formulas with natural brightening agents for even skin tone and radiant complexion.</p>
+                    <div class="service-price">₦6,000 - ₦15,000</div>
+                    <ul class="service-features">
+                        <li>Vitamin C Serum</li>
+                        <li>Niacinamide Treatment</li>
+                        <li>Dark Spot Corrector</li>
+                        <li>Glow Booster</li>
+                    </ul>
+                    <button class="service-btn" onclick="showDemoAlert()">Shop Serums</button>
                 </div>
+                
                 <div class="service-card">
+                    <div class="service-icon">☀️</div>
                     <h3>Sun Protection</h3>
-                    <p>SPF products designed for African skin</p>
+                    <p>SPF products specifically designed for African skin tones with invisible, non-greasy formulas.</p>
+                    <div class="service-price">₦5,000 - ₦10,000</div>
+                    <ul class="service-features">
+                        <li>Daily SPF 30</li>
+                        <li>Sport SPF 50</li>
+                        <li>Tinted Sunscreen</li>
+                        <li>After-sun Care</li>
+                    </ul>
+                    <button class="service-btn" onclick="showDemoAlert()">Shop Suncare</button>
                 </div>
+                
                 <div class="service-card">
+                    <div class="service-icon">🌹</div>
                     <h3>Anti-Aging</h3>
-                    <p>Powerful treatments to maintain youthful skin</p>
+                    <p>Powerful treatments with natural anti-aging ingredients to maintain youthful, firm skin.</p>
+                    <div class="service-price">₦8,000 - ₦20,000</div>
+                    <ul class="service-features">
+                        <li>Retinol Alternative</li>
+                        <li>Collagen Booster</li>
+                        <li>Eye Cream</li>
+                        <li>Firming Mask</li>
+                    </ul>
+                    <button class="service-btn" onclick="showDemoAlert()">Shop Anti-Aging</button>
                 </div>
+                
                 <div class="service-card">
-                    <h3>Skincare Consultation</h3>
-                    <p>Personalized advice for your skin concerns</p>
+                    <div class="service-icon">🎯</div>
+                    <h3>Targeted Treatments</h3>
+                    <p>Specialized solutions for specific skin concerns like acne, hyperpigmentation, and sensitivity.</p>
+                    <div class="service-price">₦4,500 - ₦18,000</div>
+                    <ul class="service-features">
+                        <li>Acne Treatment</li>
+                        <li>Sensitive Skin Care</li>
+                        <li>Pore Minimizer</li>
+                        <li>Spot Treatment</li>
+                    </ul>
+                    <button class="service-btn" onclick="showDemoAlert()">Shop Treatments</button>
                 </div>
             </div>
-            <div class="demo-cta-section">
-                <button class="cta-button primary" onclick="showDemoAlert()">Start Your Glow Up</button>
+        </div>
+    </section>
+
+    <!-- Skin Analysis Section -->
+    <section class="demo-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Free Skin Analysis</h2>
+                <p class="section-subtitle">Discover your skin type and get personalized recommendations</p>
+            </div>
+            <div class="skin-analysis">
+                <div class="analysis-content">
+                    <h3>Know Your Skin</h3>
+                    <p>Take our comprehensive skin analysis quiz to understand your skin type, concerns, and get personalized product recommendations tailored just for you.</p>
+                    <div class="analysis-benefits">
+                        <div class="benefit-item">
+                            <span class="benefit-icon">🔍</span>
+                            <span>Detailed skin assessment</span>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="benefit-icon">📋</span>
+                            <span>Personalized routine</span>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="benefit-icon">💡</span>
+                            <span>Expert recommendations</span>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="benefit-icon">📱</span>
+                            <span>Track your progress</span>
+                        </div>
+                    </div>
+                    <button class="cta-button primary" onclick="showDemoAlert()">Start Analysis</button>
+                </div>
+                <div class="analysis-image">
+                    <img src="https://images.pexels.com/photos/3373736/pexels-photo-3373736.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Skin Analysis">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skincare Routine Section -->
+    <section class="demo-section" style="background: #f8f9fa;">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Your Perfect Skincare Routine</h2>
+                <p class="section-subtitle">Step-by-step guide to healthy, glowing skin</p>
+            </div>
+            <div class="routine-timeline">
+                <div class="routine-step">
+                    <div class="step-number">AM</div>
+                    <div class="step-content">
+                        <h3>Morning Routine</h3>
+                        <ul class="routine-list">
+                            <li>Gentle cleanser</li>
+                            <li>Brightening serum</li>
+                            <li>Moisturizer</li>
+                            <li>SPF protection</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="routine-step">
+                    <div class="step-number">PM</div>
+                    <div class="step-content">
+                        <h3>Evening Routine</h3>
+                        <ul class="routine-list">
+                            <li>Makeup remover</li>
+                            <li>Deep cleanser</li>
+                            <li>Treatment serum</li>
+                            <li>Night moisturizer</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="routine-step">
+                    <div class="step-number">2x</div>
+                    <div class="step-content">
+                        <h3>Weekly Treatments</h3>
+                        <ul class="routine-list">
+                            <li>Exfoliating scrub</li>
+                            <li>Hydrating mask</li>
+                            <li>Spot treatments</li>
+                            <li>Deep conditioning</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ingredients Section -->
+    <section class="demo-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Natural Ingredients</h2>
+                <p class="section-subtitle">Powered by nature, proven by science</p>
+            </div>
+            <div class="ingredients-grid">
+                <div class="ingredient-card">
+                    <div class="ingredient-icon">🥥</div>
+                    <h3>Coconut Oil</h3>
+                    <p>Deep moisturizing and antimicrobial properties for healthy, hydrated skin.</p>
+                </div>
+                
+                <div class="ingredient-card">
+                    <div class="ingredient-icon">🍯</div>
+                    <h3>Raw Honey</h3>
+                    <p>Natural humectant with healing and antibacterial benefits for clear skin.</p>
+                </div>
+                
+                <div class="ingredient-card">
+                    <div class="ingredient-icon">🌿</div>
+                    <h3>Aloe Vera</h3>
+                    <p>Soothing and healing properties perfect for sensitive and irritated skin.</p>
+                </div>
+                
+                <div class="ingredient-card">
+                    <div class="ingredient-icon">🥑</div>
+                    <h3>Avocado Oil</h3>
+                    <p>Rich in vitamins and antioxidants for nourishing and anti-aging benefits.</p>
+                </div>
+                
+                <div class="ingredient-card">
+                    <div class="ingredient-icon">🌰</div>
+                    <h3>Shea Butter</h3>
+                    <p>Deeply moisturizing African ingredient perfect for dry and mature skin.</p>
+                </div>
+                
+                <div class="ingredient-card">
+                    <div class="ingredient-icon">🍊</div>
+                    <h3>Vitamin C</h3>
+                    <p>Powerful antioxidant for brightening and protecting against environmental damage.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="demo-section" style="background: linear-gradient(135deg, #FF6B6B 0%, #4ECDC4 100%); color: white;">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" style="color: white;">Customer Success Stories</h2>
+                <p class="section-subtitle" style="color: rgba(255,255,255,0.9);">Real results from real women</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p>"Glow Up Beauty completely transformed my skin! I struggled with dark spots for years, and their brightening serum made such a difference. My skin is now glowing and even-toned."</p>
+                    <div class="testimonial-author">
+                        <strong>Adunni Okafor</strong>
+                        <span>Marketing Executive</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p>"I love that these products are made specifically for our skin type. The moisturizer is perfect - not too heavy but incredibly hydrating. My skin has never felt better!"</p>
+                    <div class="testimonial-author">
+                        <strong>Kemi Adeleke</strong>
+                        <span>Teacher</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p>"The customer service is amazing and the products actually work! I've been using the anti-aging line for 3 months and people keep asking what I'm doing differently."</p>
+                    <div class="testimonial-author">
+                        <strong>Funmi Adebayo</strong>
+                        <span>Business Owner</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="demo-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skincare Packages</h2>
+                <p class="section-subtitle">Complete routines at special prices</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Starter Kit</h3>
+                    <div class="pricing-price">₦15,000</div>
+                    <p class="pricing-subtitle">Perfect for beginners</p>
+                    <ul class="pricing-features">
+                        <li>Gentle cleanser</li>
+                        <li>Daily moisturizer</li>
+                        <li>SPF 30 sunscreen</li>
+                        <li>Free skin consultation</li>
+                    </ul>
+                    <button class="pricing-btn" onclick="showDemoAlert()">Start Your Journey</button>
+                </div>
+                
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">Most Popular</div>
+                    <h3>Complete Routine</h3>
+                    <div class="pricing-price">₦35,000</div>
+                    <p class="pricing-subtitle">Full skincare regimen</p>
+                    <ul class="pricing-features">
+                        <li>Cleanser & toner</li>
+                        <li>Brightening serum</li>
+                        <li>Day & night moisturizer</li>
+                        <li>SPF protection</li>
+                        <li>Weekly treatment mask</li>
+                        <li>Personalized routine guide</li>
+                    </ul>
+                    <button class="pricing-btn" onclick="showDemoAlert()">Get Complete Set</button>
+                </div>
+                
+                <div class="pricing-card">
+                    <h3>Premium Collection</h3>
+                    <div class="pricing-price">₦65,000</div>
+                    <p class="pricing-subtitle">Ultimate skincare luxury</p>
+                    <ul class="pricing-features">
+                        <li>Full product range</li>
+                        <li>Anti-aging treatments</li>
+                        <li>Specialized serums</li>
+                        <li>Professional consultation</li>
+                        <li>Monthly follow-ups</li>
+                        <li>VIP customer support</li>
+                        <li>Free shipping for 6 months</li>
+                    </ul>
+                    <button class="pricing-btn" onclick="showDemoAlert()">Go Premium</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="demo-section" style="background: #f8f9fa;">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Ready to start your glow up journey?</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Visit Our Store</h3>
+                    <div class="info-item">
+                        <span class="info-icon">📍</span>
+                        <div>
+                            <strong>Address</strong>
+                            <p>Shop 8, Ikeja City Mall, Lagos</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">🕒</span>
+                        <div>
+                            <strong>Store Hours</strong>
+                            <p>Mon-Sat: 10:00 AM - 8:00 PM<br>Sunday: 12:00 PM - 6:00 PM</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">📞</span>
+                        <div>
+                            <strong>Phone</strong>
+                            <p>+234 905 678 9012</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">✉️</span>
+                        <div>
+                            <strong>Email</strong>
+                            <p>hello@glowupbeauty.ng</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form">
+                    <h3>Get Personalized Recommendations</h3>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Full Name</label>
+                            <input type="text" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Phone Number</label>
+                            <input type="tel" placeholder="Your phone number" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Email Address</label>
+                            <input type="email" placeholder="Your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Age Range</label>
+                            <select required>
+                                <option value="">Select age range</option>
+                                <option value="18-25">18-25 years</option>
+                                <option value="26-35">26-35 years</option>
+                                <option value="36-45">36-45 years</option>
+                                <option value="46+">46+ years</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Skin Type</label>
+                        <select required>
+                            <option value="">Select skin type</option>
+                            <option value="oily">Oily</option>
+                            <option value="dry">Dry</option>
+                            <option value="combination">Combination</option>
+                            <option value="sensitive">Sensitive</option>
+                            <option value="normal">Normal</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Main Skin Concerns</label>
+                        <textarea placeholder="Tell us about your skin concerns (acne, dark spots, aging, etc.)" rows="3" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Current Skincare Routine</label>
+                        <textarea placeholder="What products are you currently using?" rows="2"></textarea>
+                    </div>
+                    <button type="submit" class="cta-button primary" onclick="showDemoAlert()">Get My Recommendations</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Section -->
+    <section class="demo-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Join Our Beauty Community</h2>
+                <p class="section-subtitle">Follow us for skincare tips and inspiration</p>
+            </div>
+            <div class="social-media-grid">
+                <div class="social-card">
+                    <div class="social-icon">📱</div>
+                    <h3>Instagram</h3>
+                    <p>@glowupbeautyng</p>
+                    <p>Daily skincare tips and customer transformations</p>
+                    <button class="social-btn" onclick="showDemoAlert()">Follow Us</button>
+                </div>
+                
+                <div class="social-card">
+                    <div class="social-icon">💬</div>
+                    <h3>WhatsApp</h3>
+                    <p>+234 905 678 9012</p>
+                    <p>Quick orders and skincare consultations</p>
+                    <button class="social-btn" onclick="showDemoAlert()">Chat Now</button>
+                </div>
+                
+                <div class="social-card">
+                    <div class="social-icon">👥</div>
+                    <h3>Facebook</h3>
+                    <p>Glow Up Beauty Nigeria</p>
+                    <p>Join our community of beautiful women</p>
+                    <button class="social-btn" onclick="showDemoAlert()">Join Group</button>
+                </div>
+                
+                <div class="social-card">
+                    <div class="social-icon">🎵</div>
+                    <h3>TikTok</h3>
+                    <p>@glowupbeautyng</p>
+                    <p>Fun skincare tutorials and tips</p>
+                    <button class="social-btn" onclick="showDemoAlert()">Follow</button>
+                </div>
             </div>
         </div>
     </section>
