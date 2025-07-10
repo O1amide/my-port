@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <meta name="description" content="Experience the power of deep cleaning with SpeedClean Detergent. Advanced formula for Nigerian households. Tough on stains, gentle on fabrics.">
 </head>
 <body>
     <!-- Navigation Menu -->
@@ -30,10 +31,31 @@
     <section class="demo-hero" style="background: linear-gradient(135deg, #3498DB 0%, #2ECC71 100%);">
         <div class="container">
             <div class="demo-hero-content">
+                <div class="hero-badge">
+                    <span class="badge-icon">🧽</span>
+                    <span>Nigeria's #1 Detergent</span>
+                </div>
                 <h1 class="demo-title">SpeedClean Detergent</h1>
                 <p class="demo-subtitle">Powerful Cleaning for Nigerian Homes</p>
-                <p class="demo-description">Experience the power of deep cleaning with our advanced detergent formula</p>
-                <button class="cta-button primary demo-cta" onclick="showDemoAlert()">Buy Now</button>
+                <p class="demo-description">Experience the power of deep cleaning with our advanced detergent formula designed specifically for the Nigerian climate and lifestyle.</p>
+                <div class="hero-cta-group">
+                    <button class="cta-button primary demo-cta" onclick="showDemoAlert()">Buy Now</button>
+                    <button class="cta-button secondary" onclick="showDemoAlert()">Find Store</button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">99%</span>
+                        <span class="stat-label">Stain Removal</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">50K+</span>
+                        <span class="stat-label">Happy Families</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Safe Formula</span>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -41,46 +63,500 @@
     <!-- About Section -->
     <section class="demo-section">
         <div class="container">
-            <h2 class="section-title">About SpeedClean</h2>
-            <div class="demo-content">
-                <p>SpeedClean Detergent is Nigeria's trusted cleaning solution, specially formulated to tackle the toughest stains and dirt in our tropical climate. Our powerful formula works effectively in both hot and cold water, making it perfect for all washing conditions.</p>
-                <p>We understand the unique cleaning challenges faced by Nigerian households, which is why SpeedClean is designed to provide superior cleaning power while being gentle on your clothes and safe for your family. Make laundry day easier and more effective with SpeedClean.</p>
+            <div class="section-header">
+                <h2 class="section-title">About SpeedClean</h2>
+                <p class="section-subtitle">Trusted cleaning power for Nigerian families</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>SpeedClean Detergent is Nigeria's trusted cleaning solution, specially formulated to tackle the toughest stains and dirt in our tropical climate. Our powerful formula works effectively in both hot and cold water, making it perfect for all washing conditions across the country.</p>
+                    <p>We understand the unique cleaning challenges faced by Nigerian households, which is why SpeedClean is designed to provide superior cleaning power while being gentle on your clothes and safe for your family. Make laundry day easier and more effective with SpeedClean - the detergent that truly understands Nigerian homes.</p>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <span class="feature-icon">💪</span>
+                            <span>Powerful stain removal</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">🌡️</span>
+                            <span>Works in all temperatures</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">👶</span>
+                            <span>Family safe formula</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">💰</span>
+                            <span>Great value for money</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.pexels.com/photos/4239091/pexels-photo-4239091.jpeg?auto=compress&cs=tinysrgb&w=600" alt="SpeedClean Detergent Products">
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Services Section -->
+    <!-- Products Section -->
     <section class="demo-section" style="background: #f8f9fa;">
         <div class="container">
-            <h2 class="section-title">What We Offer</h2>
+            <div class="section-header">
+                <h2 class="section-title">Our Product Range</h2>
+                <p class="section-subtitle">Complete cleaning solutions for every need</p>
+            </div>
             <div class="services-grid">
-                <div class="service-card">
-                    <h3>Stain Removal</h3>
-                    <p>Powerful formula that removes tough stains</p>
+                <div class="service-card featured">
+                    <div class="service-icon">🧴</div>
+                    <h3>Liquid Detergent</h3>
+                    <p>Concentrated liquid formula that dissolves quickly and removes tough stains effectively.</p>
+                    <div class="service-price">₦1,200 - ₦3,500</div>
+                    <ul class="service-features">
+                        <li>500ml & 1L sizes</li>
+                        <li>Concentrated formula</li>
+                        <li>Quick dissolving</li>
+                        <li>Fresh scent</li>
+                    </ul>
+                    <button class="service-btn" onclick="showDemoAlert()">Buy Liquid</button>
                 </div>
+                
                 <div class="service-card">
-                    <h3>Fabric Care</h3>
-                    <p>Gentle on clothes while cleaning effectively</p>
+                    <div class="service-icon">📦</div>
+                    <h3>Powder Detergent</h3>
+                    <p>Traditional powder formula with enhanced cleaning power for heavy-duty washing.</p>
+                    <div class="service-price">₦800 - ₦2,500</div>
+                    <ul class="service-features">
+                        <li>500g, 1kg & 2kg packs</li>
+                        <li>Heavy-duty cleaning</li>
+                        <li>Long-lasting freshness</li>
+                        <li>Economical choice</li>
+                    </ul>
+                    <button class="service-btn" onclick="showDemoAlert()">Buy Powder</button>
                 </div>
+                
                 <div class="service-card">
-                    <h3>Fresh Scent</h3>
-                    <p>Leaves your clothes smelling fresh and clean</p>
+                    <div class="service-icon">🌿</div>
+                    <h3>Eco-Friendly Range</h3>
+                    <p>Environmentally conscious formula that's tough on stains but gentle on the planet.</p>
+                    <div class="service-price">₦1,500 - ₦4,000</div>
+                    <ul class="service-features">
+                        <li>Biodegradable formula</li>
+                        <li>Plant-based ingredients</li>
+                        <li>Recyclable packaging</li>
+                        <li>Sensitive skin friendly</li>
+                    </ul>
+                    <button class="service-btn" onclick="showDemoAlert()">Go Green</button>
                 </div>
+                
                 <div class="service-card">
-                    <h3>Concentrated Formula</h3>
-                    <p>A little goes a long way - great value for money</p>
+                    <div class="service-icon">👶</div>
+                    <h3>Baby Safe Formula</h3>
+                    <p>Gentle formula specially designed for baby clothes and sensitive skin.</p>
+                    <div class="service-price">₦1,800 - ₦4,500</div>
+                    <ul class="service-features">
+                        <li>Hypoallergenic</li>
+                        <li>No harsh chemicals</li>
+                        <li>Dermatologist tested</li>
+                        <li>Mild fragrance</li>
+                    </ul>
+                    <button class="service-btn" onclick="showDemoAlert()">Baby Safe</button>
                 </div>
+                
                 <div class="service-card">
-                    <h3>Multi-Purpose</h3>
-                    <p>Perfect for all types of fabrics and colors</p>
+                    <div class="service-icon">⚡</div>
+                    <h3>Stain Remover</h3>
+                    <p>Specialized pre-treatment for the toughest stains before washing.</p>
+                    <div class="service-price">₦900 - ₦2,200</div>
+                    <ul class="service-features">
+                        <li>Pre-treatment formula</li>
+                        <li>Targets tough stains</li>
+                        <li>Works in 5 minutes</li>
+                        <li>Safe on colors</li>
+                    </ul>
+                    <button class="service-btn" onclick="showDemoAlert()">Remove Stains</button>
                 </div>
+                
                 <div class="service-card">
-                    <h3>Family Safe</h3>
-                    <p>Safe for your family and the environment</p>
+                    <div class="service-icon">🏠</div>
+                    <h3>Multi-Purpose Cleaner</h3>
+                    <p>Versatile cleaner for clothes, floors, and household surfaces.</p>
+                    <div class="service-price">₦1,000 - ₦2,800</div>
+                    <ul class="service-features">
+                        <li>Multi-surface cleaning</li>
+                        <li>Disinfectant properties</li>
+                        <li>Fresh scent</li>
+                        <li>Value pack sizes</li>
+                    </ul>
+                    <button class="service-btn" onclick="showDemoAlert()">Clean All</button>
                 </div>
             </div>
-            <div class="demo-cta-section">
-                <button class="cta-button primary" onclick="showDemoAlert()">Order SpeedClean</button>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="demo-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Why Choose SpeedClean?</h2>
+                <p class="section-subtitle">Proven benefits for Nigerian households</p>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">🎯</div>
+                    <h3>Superior Stain Removal</h3>
+                    <p>Our advanced formula tackles even the toughest stains including palm oil, tomato, sweat, and mud - common challenges in Nigerian households.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">👕</div>
+                    <h3>Fabric Care</h3>
+                    <p>Gentle on all fabric types while providing powerful cleaning. Your clothes stay looking new for longer with our fabric-friendly formula.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">🌸</div>
+                    <h3>Long-Lasting Freshness</h3>
+                    <p>Leaves your clothes smelling fresh and clean for days, even in humid Nigerian weather conditions.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">💧</div>
+                    <h3>Works in All Water</h3>
+                    <p>Effective in both hard and soft water, hot and cold temperatures - perfect for all Nigerian water conditions.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">💰</div>
+                    <h3>Concentrated Value</h3>
+                    <p>A little goes a long way with our concentrated formula, providing excellent value for money for budget-conscious families.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">🛡️</div>
+                    <h3>Family Safe</h3>
+                    <p>Safe for your family and the environment with our carefully tested, non-toxic formula that's gentle on skin.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Usage Guide Section -->
+    <section class="demo-section" style="background: #f8f9fa;">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">How to Use SpeedClean</h2>
+                <p class="section-subtitle">Get the best results with proper usage</p>
+            </div>
+            <div class="usage-guide">
+                <div class="usage-steps">
+                    <div class="usage-step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3>Sort Your Clothes</h3>
+                            <p>Separate whites, colors, and delicates for best results</p>
+                        </div>
+                    </div>
+                    
+                    <div class="usage-step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3>Pre-treat Stains</h3>
+                            <p>Apply SpeedClean directly to tough stains and let sit for 5 minutes</p>
+                        </div>
+                    </div>
+                    
+                    <div class="usage-step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3>Measure Correctly</h3>
+                            <p>Use 1 capful for regular loads, 2 capfuls for heavily soiled items</p>
+                        </div>
+                    </div>
+                    
+                    <div class="usage-step">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h3>Wash & Enjoy</h3>
+                            <p>Add to washing machine and enjoy fresh, clean clothes</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="usage-tips">
+                    <h3>Pro Tips</h3>
+                    <ul class="tips-list">
+                        <li>For hand washing, dissolve SpeedClean in water before adding clothes</li>
+                        <li>Use warm water for better stain removal on white clothes</li>
+                        <li>Don't overload your washing machine for best results</li>
+                        <li>Store in a cool, dry place away from children</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="demo-section" style="background: linear-gradient(135deg, #3498DB 0%, #2ECC71 100%); color: white;">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" style="color: white;">What Families Say</h2>
+                <p class="section-subtitle" style="color: rgba(255,255,255,0.9);">Real reviews from satisfied customers</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p>"SpeedClean is amazing! It removed palm oil stains from my husband's shirt that I thought were permanent. Now it's my go-to detergent for the whole family."</p>
+                    <div class="testimonial-author">
+                        <strong>Mrs. Adebayo</strong>
+                        <span>Lagos Housewife</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p>"I've tried many detergents but SpeedClean is the best value for money. A small amount goes a long way and my clothes smell fresh for days. Highly recommend!"</p>
+                    <div class="testimonial-author">
+                        <strong>Mr. Okafor</strong>
+                        <span>Abuja Resident</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p>"As a mother of three, I need a detergent that works. SpeedClean handles everything from baby food stains to muddy school uniforms. It's a lifesaver!"</p>
+                    <div class="testimonial-author">
+                        <strong>Mrs. Kemi</strong>
+                        <span>Working Mother</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="demo-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Packages</h2>
+                <p class="section-subtitle">Choose the right size for your family</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Family Starter</h3>
+                    <div class="pricing-price">₦2,500</div>
+                    <p class="pricing-subtitle">Perfect for small families</p>
+                    <ul class="pricing-features">
+                        <li>1L Liquid Detergent</li>
+                        <li>500g Powder Detergent</li>
+                        <li>250ml Stain Remover</li>
+                        <li>Usage guide included</li>
+                    </ul>
+                    <button class="pricing-btn" onclick="showDemoAlert()">Buy Starter</button>
+                </div>
+                
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">Best Value</div>
+                    <h3>Family Complete</h3>
+                    <div class="pricing-price">₦5,500</div>
+                    <p class="pricing-subtitle">Most popular choice</p>
+                    <ul class="pricing-features">
+                        <li>2L Liquid Detergent</li>
+                        <li>1kg Powder Detergent</li>
+                        <li>500ml Stain Remover</li>
+                        <li>500ml Multi-Purpose Cleaner</li>
+                        <li>Free delivery in Lagos</li>
+                        <li>Money-back guarantee</li>
+                    </ul>
+                    <button class="pricing-btn" onclick="showDemoAlert()">Buy Complete</button>
+                </div>
+                
+                <div class="pricing-card">
+                    <h3>Bulk Saver</h3>
+                    <div class="pricing-price">₦12,000</div>
+                    <p class="pricing-subtitle">Best for large families</p>
+                    <ul class="pricing-features">
+                        <li>4L Liquid Detergent</li>
+                        <li>2kg Powder Detergent</li>
+                        <li>1L Stain Remover</li>
+                        <li>1L Multi-Purpose Cleaner</li>
+                        <li>Baby Safe Formula (500ml)</li>
+                        <li>Free nationwide delivery</li>
+                        <li>3-month supply guarantee</li>
+                    </ul>
+                    <button class="pricing-btn" onclick="showDemoAlert()">Buy Bulk</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Where to Buy Section -->
+    <section class="demo-section" style="background: #f8f9fa;">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Where to Buy</h2>
+                <p class="section-subtitle">Find SpeedClean at these locations</p>
+            </div>
+            <div class="locations-grid">
+                <div class="location-card">
+                    <div class="location-icon">🏪</div>
+                    <h3>Supermarkets</h3>
+                    <ul class="location-list">
+                        <li>Shoprite</li>
+                        <li>Game Stores</li>
+                        <li>Spar</li>
+                        <li>Ebeano Supermarket</li>
+                    </ul>
+                </div>
+                
+                <div class="location-card">
+                    <div class="location-icon">🛒</div>
+                    <h3>Online Stores</h3>
+                    <ul class="location-list">
+                        <li>Jumia</li>
+                        <li>Konga</li>
+                        <li>Jiji</li>
+                        <li>Our Website</li>
+                    </ul>
+                </div>
+                
+                <div class="location-card">
+                    <div class="location-icon">🏬</div>
+                    <h3>Local Stores</h3>
+                    <ul class="location-list">
+                        <li>Neighborhood shops</li>
+                        <li>Provision stores</li>
+                        <li>Markets</li>
+                        <li>Distributors</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="demo-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contact Us</h2>
+                <p class="section-subtitle">Get in touch for orders and inquiries</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>SpeedClean Customer Care</h3>
+                    <div class="info-item">
+                        <span class="info-icon">📍</span>
+                        <div>
+                            <strong>Head Office</strong>
+                            <p>Plot 15, Industrial Estate, Ikeja, Lagos</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">📞</span>
+                        <div>
+                            <strong>Customer Service</strong>
+                            <p>+234 906 789 0123</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">✉️</span>
+                        <div>
+                            <strong>Email</strong>
+                            <p>info@speedcleanng.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">🕒</span>
+                        <div>
+                            <strong>Support Hours</strong>
+                            <p>Mon-Fri: 8:00 AM - 6:00 PM<br>Sat: 9:00 AM - 4:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form">
+                    <h3>Place Your Order</h3>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Full Name</label>
+                            <input type="text" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Phone Number</label>
+                            <input type="tel" placeholder="Your phone number" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Email Address</label>
+                            <input type="email" placeholder="Your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Location</label>
+                            <input type="text" placeholder="Your city/state" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Product Package</label>
+                        <select required>
+                            <option value="">Select package</option>
+                            <option value="starter">Family Starter - ₦2,500</option>
+                            <option value="complete">Family Complete - ₦5,500</option>
+                            <option value="bulk">Bulk Saver - ₦12,000</option>
+                            <option value="custom">Custom Order</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Delivery Address</label>
+                        <textarea placeholder="Enter your full delivery address" rows="3" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Special Requests</label>
+                        <textarea placeholder="Any special requests or questions?" rows="2"></textarea>
+                    </div>
+                    <button type="submit" class="cta-button primary" onclick="showDemoAlert()">Place Order</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Section -->
+    <section class="demo-section" style="background: #f8f9fa;">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Follow SpeedClean</h2>
+                <p class="section-subtitle">Stay updated with cleaning tips and offers</p>
+            </div>
+            <div class="social-media-grid">
+                <div class="social-card">
+                    <div class="social-icon">📱</div>
+                    <h3>Instagram</h3>
+                    <p>@speedcleanng</p>
+                    <p>Cleaning tips and customer success stories</p>
+                    <button class="social-btn" onclick="showDemoAlert()">Follow Us</button>
+                </div>
+                
+                <div class="social-card">
+                    <div class="social-icon">💬</div>
+                    <h3>WhatsApp</h3>
+                    <p>+234 906 789 0123</p>
+                    <p>Quick orders and customer support</p>
+                    <button class="social-btn" onclick="showDemoAlert()">Chat Now</button>
+                </div>
+                
+                <div class="social-card">
+                    <div class="social-icon">👥</div>
+                    <h3>Facebook</h3>
+                    <p>SpeedClean Nigeria</p>
+                    <p>Join our community of satisfied customers</p>
+                    <button class="social-btn" onclick="showDemoAlert()">Like Page</button>
+                </div>
+                
+                <div class="social-card">
+                    <div class="social-icon">📺</div>
+                    <h3>YouTube</h3>
+                    <p>SpeedClean Tips</p>
+                    <p>Cleaning tutorials and product demos</p>
+                    <button class="social-btn" onclick="showDemoAlert()">Subscribe</button>
+                </div>
             </div>
         </div>
     </section>
